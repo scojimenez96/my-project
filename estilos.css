@@ -1,0 +1,129 @@
+body {
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    width: 80%;
+    margin-left: 130px;
+    
+}
+header {
+    background: #133642;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2px;
+    color: #fff;
+}
+#buscador{
+    display: flex;
+    margin-top: 35px;
+    
+}
+input{
+    height: 45px;
+    width: 40%;
+    
+}
+#left{
+    width: 45%;
+    float: left;
+    margin-left: 240px;
+}
+#right{
+    width: 30%;
+    float: left;
+}
+#color-button{
+    background: #133642;
+    height: 45px;
+    width: 100px;
+    font-weight: 100;
+}
+#container{
+    margin: 30px;
+    margin-left: 75px;
+    display: none;
+}
+article{
+        float: left;
+    background: #ffffff;
+    margin-right: 40px;
+    padding: 12px;
+    height: 180px; 
+    width: 40%;
+    position: relative;
+    margin-bottom: 40px;
+}
+article::after{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #000000, #434343);
+    filter: blur(2px);
+    z-index: -1;
+    
+}
+a{
+    color: black;
+    text-decoration-line: revert;
+}
+p{
+    margin-bottom: 0px;
+}
+hr{
+    margin-bottom: 0px;
+    margin-top: 45px;
+}
+.top{
+    font-size: 14px;
+    float: right;
+    padding-right: 25px;
+}
+article ul li{
+    list-style: none;
+    display: inline-block;
+}
+.lejos{
+    padding-right: 155px;
+}
+
+#encabezado{
+    text-align: center;
+    margin-top: 20px;
+}
+#topten{
+    text-align: center
+    
+}
+nav ul li{
+    list-style: none;
+    position: relative;
+    background: skyblue;
+    margin: 12px;
+    padding: 3px;
+    width: 40%;
+    margin-left: 285px;
+}
+nav ul li::after{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #000000, #434343);
+    filter: blur(2px);
+    z-index: -1;
+    
+}
+#loadm{
+    background: white;
+    color: cadetblue;
+    border-radius: 15px;
+    width: 125px;
+}
+#mas{
+    display: none;
+}
